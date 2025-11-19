@@ -2,7 +2,6 @@
 
 <div id="top"></div>
 
-## Table of the development environment
 
 <!-- シールド一覧 -->
 <!-- 該当するプロジェクトの中から任意のものを選ぶ-->
@@ -12,7 +11,7 @@
   <img src = "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
   
   <!-- ミドルウェア一覧 -->
-  <img src="https://img.shields.io/badge/-githubactions-FFFFFF.svg?logo=github-actions&style=for-the-badge">
+  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
   <!--<img src="https://img.shields.io/badge/-MySQL-4479A1.svg?logo=mysql&style=for-the-badge&logoColor=white">
   <img src="https://img.shields.io/badge/-Gunicorn-199848.svg?logo=gunicorn&style=for-the-badge&logoColor=white"> -->
   <!-- インフラ一覧 -->
@@ -62,10 +61,5 @@ https://github.com/user-attachments/assets/fc08b1e6-d858-44b0-a61c-4af4dcece9e7
 
 
 
-
-
-
-
-### Module not found
 
 make build
