@@ -49,17 +49,16 @@
   their computation based on their numbers and operators.<br/>
 
   <h1>Variables</h1>
-   num1 and num2 are variables which have user's inputs
-  op is an abbreviation of operator, which specifies 4 operators such as "+", "-", "/", and "*"
-  Other values are treated as "Invalid operator"
-  This calculator explains me how if statements works and how to use input function in python
+   num1 and num2 are variables which have user's inputs<br/>
+  op is an abbreviation of operator, which specifies 4 operators such as "+", "-", "/", and "*"<br/>
+  Other values are treated as "Invalid operator"<br/>
+  This calculator explains me how if statements works and how to use input function in python.<br/>
+  The important point is input function returns string type, so I changed it to float type with <br/>
+  float() function to calculate them correctly.  <br/>
 
-<h1>Hands-on Video</h1>
+<h1>Hands-on Video</h1> <br/>
 
-
-https://github.com/user-attachments/assets/fc08b1e6-d858-44b0-a61c-4af4dcece9e7
-
+https://github.com/user-attachments/assets/65572ea1-50c8-41b9-9e7d-84870285a088
 
 
 
-make build
