@@ -129,21 +129,47 @@ friends = ["Kevin", 2, False, "Karen", "Jim"]
 # print(max_num(300,4,5))
 
 # Dictionary
-monthConversions = {
-    "Jan": "January",
-    "Feb": "February",
-    "Mar": "March",
-    "Apr": "April",
-    "May": "May",
-    "Jun": "June",
-    "Jul": "July",
-    "Aug": "August",
-    "Sep": "September",
-    "Oct": "October",
-    "Nov": "November",
-    "Dec": "December",
-}
+# monthConversions = {
+#     # left value is called "key"
+#     # We can use number for key too.
+#     "Jan": "January",
+#     "Feb": "February",
+#     "Mar": "March",
+#     "Apr": "April",
+#     "May": "May",
+#     "Jun": "June",
+#     "Jul": "July",
+#     "Aug": "August",
+#     "Sep": "September",
+#     "Oct": "October",
+#     "Nov": "November",
+#     "Dec": "December",
+# }
+#
+# print(monthConversions.get("Luv", "Not a valid key"))
 
-print(monthConversions["Nov"])
+# While loop
+# i = 0
+# while i<=10:
+#     print(i)
+#     i += 1
+# print("Done with loop")
 
-
+# secret_word = "Lion"
+# guess = ""
+# guess_count = 0
+# guess_limit = 3
+# out_of_guesses = False
+#
+# while guess != secret_word and not (out_of_guesses):
+#     if guess_count < guess_limit:
+#         guess = input("Enter guess: ")
+#         guess_count += 1
+#     else:
+#         out_of_guesses = True
+#
+# if out_of_guesses:
+#     print ("Out of Guesses, YOU LOSE!")
+# else:
+#     print("YOU WIN!")
+#
