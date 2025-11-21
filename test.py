@@ -226,3 +226,29 @@ friends = ["Kevin", 2, False, "Karen", "Jim"]
 #     return translation
 #
 # print(translate(input("Enter a phrase: ")))
+
+# Try Except
+# To protect the program
+# ZeroDivisionError and ValueError is built-in excepetion class
+# They make exception class which is stored in variable after "as" statement.
+# try:
+#     answer = 10/0
+#     number = int(input("Enter a number: "))
+#     print(number)
+# # err ("as" showed) is variable which contains ZeroDivisionError class
+# except ZeroDivisionError as err:
+#     print(err)
+# except ValueError:
+#     print("Invalid Input")
+
+# Reading files from imported file.
+# r is read, w is write, a is append (add), r+ is read and write
+test_file = open("test.txt", "r")
+for test in test_file.readlines():
+# readable is function which returns boolean value
+# print(test_file.read())
+# print(test_file.readline())
+# print(test_file.readlines()
+# print(test_file.readlines()[1])
+    print(test)
+    test_file.close()
