@@ -243,12 +243,21 @@ friends = ["Kevin", 2, False, "Karen", "Jim"]
 
 # Reading files from imported file.
 # r is read, w is write, a is append (add), r+ is read and write
-test_file = open("test.txt", "r")
-for test in test_file.readlines():
+# test_file = open("test.txt", "r")
+# for test in test_file.readlines():
 # readable is function which returns boolean value
 # print(test_file.read())
 # print(test_file.readline())
 # print(test_file.readlines()
 # print(test_file.readlines()[1])
-    print(test)
-    test_file.close()
+#     print(test)
+#     test_file.close()
+
+# Write files
+employee_file = open ("index.html", "w")
+
+employee_file.write("<p>This is HTML</p>")
+employee_file.close()
+
+# Modules and Piles
+
